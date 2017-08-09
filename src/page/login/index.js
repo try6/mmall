@@ -1,5 +1,4 @@
-
 /*login*/
 //"use strict";
-
-console.log('hello login!') ;
+require('./login.css');
+console.log('hello login!');

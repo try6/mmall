@@ -1,7 +1,7 @@
 /*index*/
-"use strict";
-//require('../module.js');
-require('./index.css');
-console.log('hello index!');
-// var _mm = require('../../util/mm.js');
-$('body').html('index  hello~~~');
+
+/*require('./index.css');*/
+//var _mm = require('util/mm.js');
+//alert();
+require('page/common/nav-simple/index.js');
+require('page/common/nav/nav.js');
