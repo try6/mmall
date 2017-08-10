@@ -1,0 +1,24 @@
+/* var _mm = require('util/mm.js') */
+/* 通用头部导航 */
+.header .logo{
+	position: absolute;
+	font-size: 36px;
+	display: block;
+	color:#c60023;
+	left: 60px;
+	top: 34px;
+	font-weight: bold;
+}
+.header .search-con{
+	padding: 40px 0 30px 250px;
+
+
+}
+.header .search-con .search-input{
+	width: 550px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	font-size: 15px;
+	border: 2px solid #c60023;
+}
