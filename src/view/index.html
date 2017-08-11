@@ -7,21 +7,14 @@
 <html lang="en">
 
 <body>
-<%= require('html-loader!./layout/nav.html')  %>
-    <div>
-        <i class="fa fa-user"></i>
+    <%= require('html-loader!./layout/nav.html')  %>
+    <%= require('html-loader!./layout/header.html')  %>
+    <!-- <%= require('html-loader!./layout/nav-simple.html')  %> -->
+    <div class="page-wrap w">
+        <%= require('html-loader!./layout/nav-side.html')  %>
+        <div class="content with-nav">content</div>
     </div>
-    <div>
-        <a class="link-text">test</a>
-        <a class="link">test</a>
-    </div>
-    <div>
-        <a href="" title="" class="btn">test</a>
-        <a href="" title="" class="btn btn-mini">test</a>
-    </div>
-    <div>
-        <div class="loading"></div>
-    </div>
+     
     <%= require('html-loader!./layout/footer.html')  %>
 </body>
 
