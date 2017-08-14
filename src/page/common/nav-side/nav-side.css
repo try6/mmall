@@ -3,6 +3,7 @@
 .nav-side{
 	float: left;
 	width: 130px;
+	min-height:100px;
 }
 .nav-side .nav-item{
 	line-height: 25px;
@@ -11,7 +12,7 @@
 .nav-side .nav-item .link{
 	color:#888;
 }
-.nav-side .nav-item .active{
+.nav-side .nav-item.active a{
 	color: #c60023;
 	font-weight: bold;
 

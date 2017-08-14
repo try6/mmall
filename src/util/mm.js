@@ -43,7 +43,7 @@ var _mm = {
 	// 渲染html模板
 	renderHtml: function(htmlTemplate, data) {
 		var template = Hogan.compile(htmlTemplate),
-			result = template.render(data);
+		result = template.render(data);
 		return result;
 	},
 	// 成功提示
