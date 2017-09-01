@@ -3,7 +3,7 @@
 <head>
     <%= require('html-loader!./layout/head-common.html')  %>
 </head>
-<title>happymmall</title>
+<title><%= htmlWebpackPlugin.options.title%>--happymmall电商平台</title>
 <html lang="en">
 
 <body>
@@ -32,10 +32,10 @@
     				</label>
     				<input type="password"  class="user-content" id="password" placeholder="请输入密码" autocomplete="off" name="" for="password">
     			</div>
-    			<a href="" class="btn btn-submit" id= "submit">登录</a>
+    			<a href="" class="btn btn-submit" id= "submit" class="js-login">登录</a>
     			<div class="link-item">
     				<a href="./user-pass-reset.html" target="_blank" class="link">忘记密码</a>
-    				<a href="./user.register.html" target="_blank" class="link">免费注册</a>
+    				<a href="./user-register.html" target="_blank" class="link">免费注册</a>
     			</div>
     		</div>
     	</div>

@@ -1,0 +1,101 @@
+.page-wrap{
+	padding: 40px 0;
+}
+
+/* 表单 */
+.user-con{
+	position: relative;
+	margin: 0 auto;
+	width: 400px;
+	background:#fff;
+}
+
+.user-con .user-title{
+	text-align: center;
+	padding: 10px 0;
+	border-bottom:1px solid #ddd;
+	font-size: 18px;
+	font-weight: bold;
+	color:#666;
+
+}
+
+.user-con .user-box{
+	padding: 20px;
+}
+
+/* error msg */
+.user-con .user-box .erro-item{
+	display: none;
+	color:red;
+	font-weight: bold;
+	margin-bottom: 10px;
+	position: relative;
+	padding: 4px 0 4px 40px ;
+	background: #fde9e9;
+	border:2px solid red;
+}
+
+.user-con .user-box .erro-icon{
+	position: absolute;
+	left: 14px;
+	top: 50%;
+	font-size: 14px;
+	margin-top: -7px;
+}
+
+/* 每一步的容器 */
+.user-con .step-con{
+	display: none;
+}
+/* 输入框提示容器 */
+.user-con .user-item-text{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+/* 输入框容器 */
+.user-con .user-item{
+	position: relative;
+	margin-bottom: 20px;
+	height: 40px;
+}
+
+.user-con .user-item .user-label{
+	position: absolute;
+	left: 1px;
+	top:1px;
+
+	width: 40px;
+	font-size: 18px;
+	color: #d3d3d3;
+	background-color: #f3f3f3;
+	text-align: center;
+	line-height: 38px;
+}
+.user-con .user-item .user-content{
+	padding: 10px 0 10px 50px;
+	width: 308px;
+	height: 18px;
+	font-size: 15px;
+	border: 1px solid #bdbdbd;
+	line-height: 18px;
+	outline: none;
+}
+
+.user-con .btn-submit{
+    width: 100%;
+    padding: 2px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* 
+跳转链接 */
+.user-con .link-item{
+	margin-top: 10px;
+	text-align: right;
+}
+.user-con .link-item .link{
+	margin-left: 10px;
+	color:#999;
+}

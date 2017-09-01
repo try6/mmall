@@ -30,6 +30,10 @@ var config = {
 		'common': ['./src/page/common/index.js'],
 		'index': ['./src/page/index/index.js'],
 		'user-login': ['./src/page/user-login/user-login.js'],
+		'user-register': ['./src/page/user-register/user-register.js'],
+		'user-center': ['./src/page/user-center/index.js'],
+		'user-center-update': ['./src/page/user-center-update/index.js'],
+		'user-pass-reset': ['./src/page/user-pass-reset/index.js'],
 		'result': ['./src/page/result/result.js'],
 	},
 	output: {
@@ -73,6 +77,10 @@ var config = {
 		// html模板的处理
 		new HtmlWebpackPlugin(getHtmlConfig('index', '首页')),
 		new HtmlWebpackPlugin(getHtmlConfig('user-login', '登录页')),
+		new HtmlWebpackPlugin(getHtmlConfig('user-register', '注册页')),
+		new HtmlWebpackPlugin(getHtmlConfig('user-pass-reset', '找回密码')),
+		new HtmlWebpackPlugin(getHtmlConfig('user-center', '个人中心')),
+		new HtmlWebpackPlugin(getHtmlConfig('user-center-update', '修改个人中心')),
 		new HtmlWebpackPlugin(getHtmlConfig('result', '操作结果')),
 	]
 

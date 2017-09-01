@@ -43,7 +43,7 @@ var _mm = {
 	// 渲染html模板
 	renderHtml: function(htmlTemplate, data) {
 		var template = Hogan.compile(htmlTemplate),
-		result = template.render(data);
+			result = template.render(data);
 		return result;
 	},
 	// 成功提示
@@ -59,6 +59,7 @@ var _mm = {
 		var value = $.trim(value);
 		// 非空验证
 		if ('require' === type) {
+			//!!含义：如果明确设置了value的值（非 null/undefined/0""/等值），返回value,如果没有设置，返回false而不是 null或undefined。
 			return !!value;
 		}
 		// 手机号验证

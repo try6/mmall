@@ -1,0 +1,24 @@
+<div class="user-info">
+    <div class="form-line">
+        <span class="label">用户名：</span>
+        <input type="text" name="" class="input" autocomplete="off" value={{username}} id="username">
+    </div>
+    <div class="form-line">
+        <span class="label">电  话：</span>
+         <input type="text" name="" class="input" autocomplete="off" value={{phone}} id="phone">
+    </div>
+    <div class="form-line">
+        <span class="label">邮  箱：</span>
+         <input type="text" name="" class="input" autocomplete="off" value={{email}} id="email">
+    </div>
+    <div class="form-line">
+        <span class="label">问  题：</span>
+         <input type="text" name="" class="input" autocomplete="off" value={{question}} id="question">
+    </div>
+
+    <div class="form-line">
+        <span class="label">答  案：</span>
+         <input type="text" name="" class="input" autocomplete="off" value={{answer}} id="answer">
+    </div>
+    <span class="btn submit-btn" hr>提交</span>
+</div>
